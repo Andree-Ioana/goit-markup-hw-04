@@ -26,26 +26,26 @@
   fill: #757575;
 }
 .mail:hover {
-  fill: #2196f3;
+  stroke: #2196f3;
 }
 .contact-container .icon-mail {
   display: flex;
   align-items: center;
   gap: 10px;
 }
- .phone {
+.phone {
   width: 10px;
   height: 16px;
   top: 32px;
   left: 1243px;
 }
-.contact-container .icon-phone{
-       display: flex;
-       align-items: center;
-       gap: 10px;
+.contact-container .icon-phone {
+  display: flex;
+  align-items: center;
+  gap: 10px;
 }
-.phone:hover{
-  fill: #2196f3;
+.phone:hover {
+  stroke: #2196f3;
 }
 .current {
   color: #2196f3;
@@ -117,8 +117,8 @@ span.accent {
   align-items: center;
   background-image: url(../images/friends.jpg);
   background-repeat: no-repeat;
-   background-size: cover;
-   background-image: linear-gradient(#2F303A66) ;
+  background-size: cover;
+  background-image: linear-gradient(#2f303a66);
 }
 
 .title {
@@ -155,9 +155,53 @@ span.accent {
 }
 .information-container {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   padding-top: 94px;
+}
+.antena {
+  width: 70px;
+  height: 70px;
+  top: 799px;
+  left: 315px;
+}
+.clock{
+  width: 70px;
+  height: 70px;
+  top: 799px;
+  left: 615px ; 
+}
+.diagram{
+  width: 70px;
+  height: 70px;
+  top: 799px;
+  left: 915px  ;
+}
+.astrounaut{
+  width: 70px;
+  height: 70px;
+  top: 799px;
+  left: 1215px;
+   
+}
+.icon-list{
+  border: 1px solid #F5F4FA;
+  border-radius: 4px;
+  background-color: #F5F4FA;
+  width: 280px;
+  height: 120px;
+  top: 774px;
+  left: 215px;
+  text-align: center;
+  padding: 25px 100px;
+  }
+.icon-about-us ul{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+  
 }
 .about-us {
   display: flex;
@@ -232,7 +276,7 @@ h2 {
   justify-content: center;
   align-items: center;
   text-align: center;
-  height: 368px;
+  height: 388px;
   top: 1635px;
   left: 215px;
   gap: 30px;
@@ -254,7 +298,7 @@ h2 {
   display: flex;
   background-color: #ffffff;
   width: 270px;
-  height: 368px;
+  height: 410px;
   top: 94px;
   left: 215px;
   flex-direction: column;
@@ -267,7 +311,7 @@ h2 {
   display: flex;
   background-color: #ffffff;
   width: 270px;
-  height: 368px;
+  height: 410px;
   top: 94px;
   left: 515px;
   align-content: flex-start;
@@ -283,7 +327,7 @@ h2 {
   display: flex;
   background-color: #ffffff;
   width: 270px;
-  height: 368px;
+  height: 410px;
   top: 94px;
   left: 815px;
   box-shadow: 0px 2px 1px 0px #00000033;
@@ -298,7 +342,7 @@ h2 {
   display: flex;
   background-color: #ffffff;
   width: 270px;
-  height: 368px;
+  height: 410px;
   top: 94px;
   left: 1115px;
   box-shadow: 0px 2px 1px 0px #00000033;
@@ -340,7 +384,47 @@ h2 {
   left: 577px;
   padding-top: 59px;
 }
-
+ .instagram{
+  width: 20px;
+  height: 20px;
+  top: 12px;
+  left: 12px;
+  }
+.icon-instagram:hover{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  top: -0px;
+  angle: -0 deg;
+  background: #2196F3;
+  stroke: #ffffff;
+  border-radius: 50%;
+}
+.twitter{
+  width: 20px;
+  height: 20px;
+  top: 12px;
+  left: 12px;
+}
+.facebook{
+  width: 20px;
+  height: 20px;
+  top: 12px;
+  left: 12px;
+}
+.linkedin{
+  width: 20px;
+  height: 20px;
+  top: 12px;
+  left: 12px;
+}
+.icon-social{
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 19px;
+}
 .adress-information {
   background-color: #2f303a;
   display: flex;
