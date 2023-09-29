@@ -387,26 +387,41 @@ h2 {
   height: 20px;
   top: 12px;
   left: 12px;
+  fill: #AFB1B8;
 }
-.icon-social-list:hover {
-  background-color: #2196f3;
-  stroke: #2196f3;
-  border-radius: 50%;
-  padding: 9px;
-  stroke: #ffffff;
+.instagram:hover{
+  fill: #ffffff
 }
 .twitter {
   width: 20px;
   height: 20px;
+  fill:#AFB1B8 ;
+}
+.twitter:hover{
+  fill: #ffffff;
 }
 
 .facebook {
   width: 20px;
   height: 20px;
+  fill: #AFB1B8;
+}
+.facebook:hover{
+  fill: #ffffff
 }
 .linkedin {
   width: 20px;
   height: 20px;
+  fill: #AFB1B8;
+}
+.linkedin:hover{
+  fill: #ffffff
+}
+
+.icon-social-list:hover {
+  background-color: #2196f3;
+  border-radius: 50%;
+  padding: 9px;
 }
 .icon-social {
   display: flex;
@@ -420,6 +435,10 @@ h2 {
   height: 46.7px;
   top: 7px;
   left: 32px;
+  fill: #AFB1B8;
+}
+.union:hover{
+  fill: #2196F3;
 }
 
 .group {
@@ -427,32 +446,50 @@ h2 {
   height: 52px;
   top: 3px;
   left: 33px;
+  fill: #AFB1B8;
 }
-
+.group:hover{
+  fill: #2196F3;
+}
 .group1 {
   width: 43.46px;
   height: 41.18px;
   top: 8.7px;
   left: 29.68px;
+  fill: #AFB1B8;
+}
+.group1:hover{
+  fill: #2196F3;
 }
 .group2 {
   width: 84.44px;
   height: 40.62px;
   top: 8.7px;
   left: 11px;
+  fill: #AFB1B8;
 }
-
+.group2:hover{
+  fill: #2196F3;
+}
 .group3 {
   width: 62.54px;
   height: 45.43px;
   top: 6.77px;
   left: 22px;
+  fill: #AFB1B8;
+}
+.group3:hover{
+  fill: #2196F3;
 }
 .group4 {
   width: 93.79px;
   height: 43.93px;
   top: 6.77px;
   left: 6px;
+  fill: #AFB1B8;
+}
+.group4:hover{
+  fill: #2196F3;
 }
 .regular-icon-list{
   display: flex;
@@ -465,7 +502,6 @@ h2 {
 }
 .regular-icon-list:hover{
  border: 1px solid #2196F3 ;
- stroke: #2196F3; 
 }
 .regular-container{
   height: 380px;
@@ -521,6 +557,24 @@ h2 {
 }
 .useful-information a:hover {
   color: #2196f3;
+}
+.title-find{
+  font-family: var(--heading-font-family);
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 0.03em;
+  color: #eeeeee;
+}
+.icon-social-find{
+  display: flex;
+  
+  gap: 10px;
+}
+.container-find{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+ padding-left: 500px;
 }
 .portofolio-container {
   display: flex;
