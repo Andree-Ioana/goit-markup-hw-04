@@ -166,42 +166,40 @@ span.accent {
   top: 799px;
   left: 315px;
 }
-.clock{
+.clock {
   width: 70px;
   height: 70px;
   top: 799px;
-  left: 615px ; 
+  left: 615px;
 }
-.diagram{
+.diagram {
   width: 70px;
   height: 70px;
   top: 799px;
-  left: 915px  ;
+  left: 915px;
 }
-.astrounaut{
+.astrounaut {
   width: 70px;
   height: 70px;
   top: 799px;
   left: 1215px;
-   
 }
-.icon-list{
-  border: 1px solid #F5F4FA;
+.icon-list {
+  border: 1px solid #f5f4fa;
   border-radius: 4px;
-  background-color: #F5F4FA;
+  background-color: #f5f4fa;
   width: 280px;
   height: 120px;
   top: 774px;
   left: 215px;
   text-align: center;
   padding: 25px 100px;
-  }
-.icon-about-us ul{
+}
+.icon-about-us ul {
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 40px;
-  
 }
 .about-us {
   display: flex;
@@ -384,46 +382,103 @@ h2 {
   left: 577px;
   padding-top: 59px;
 }
- .instagram{
+.instagram {
   width: 20px;
   height: 20px;
   top: 12px;
   left: 12px;
-  }
-.icon-instagram:hover{
+}
+.icon-social-list:hover {
+  background-color: #2196f3;
+  stroke: #2196f3;
+  border-radius: 50%;
+  padding: 10px;
+  stroke: #ffffff;
+}
+.twitter {
+  width: 20px;
+  height: 20px;
+}
+
+.facebook {
+  width: 20px;
+  height: 20px;
+}
+.linkedin {
+  width: 20px;
+  height: 20px;
+}
+.icon-social {
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+  gap: 30px;
+  padding-right: 35px;
+}
+
+.union {
+  width: 41px;
+  height: 46.7px;
+  top: 7px;
+  left: 32px;
+}
+
+.group {
+  width: 40px;
+  height: 52px;
+  top: 3px;
+  left: 33px;
+}
+
+.group1 {
+  width: 43.46px;
+  height: 41.18px;
+  top: 8.7px;
+  left: 29.68px;
+}
+.group2 {
+  width: 84.44px;
+  height: 40.62px;
+  top: 8.7px;
+  left: 11px;
+}
+
+.group3 {
+  width: 62.54px;
+  height: 45.43px;
+  top: 6.77px;
+  left: 22px;
+}
+.group4 {
+  width: 93.79px;
+  height: 43.93px;
+  top: 6.77px;
+  left: 6px;
+}
+.regular-icon-list{
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 44px;
-  height: 44px;
-  top: -0px;
-  angle: -0 deg;
-  background: #2196F3;
-  stroke: #ffffff;
-  border-radius: 50%;
+  border: 1px solid #AFB1B8;
+  border-radius: 4px;
+  width: 170px;
+  height: 92px;
 }
-.twitter{
-  width: 20px;
-  height: 20px;
-  top: 12px;
-  left: 12px;
+.regular-icon-list:hover{
+ border: 1px solid #2196F3 ;
+ stroke: #2196F3; 
 }
-.facebook{
-  width: 20px;
-  height: 20px;
-  top: 12px;
-  left: 12px;
+.regular-container{
+  height: 380px;
+  top: 2401px;
+  left: 215px;
+  padding-top: 90px;
 }
-.linkedin{
-  width: 20px;
-  height: 20px;
-  top: 12px;
-  left: 12px;
-}
-.icon-social{
+.container-regular-list{
   display: flex;
-  justify-content: space-evenly;
-  padding-top: 19px;
+  justify-content: center;
+  gap: 30px;
+  padding-top: 30px;
 }
 .adress-information {
   background-color: #2f303a;
