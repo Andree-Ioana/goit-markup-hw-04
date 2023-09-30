@@ -54,7 +54,7 @@ a:link,
 a:hover {
   color: #2196f3;
 }
-a:focus {
+a:focus{
   color: #2196f3;
 }
 .nav-link {
@@ -515,33 +515,31 @@ h2 {
   gap: 30px;
   padding-top: 30px;
 }
-
-
-.useful-information {
+.container-adress{
+  display: flex;
+  height: 251px;
+  background-color: #2f303a;
+}
+.footer-child-container:nth-child(2){
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 70px;
+}
+.useful-information{
   display: flex;
   flex-direction: column;
   font-family: var(--heading-font-family);
   font-weight: 400;
   padding-left: 215px;
 }
-.container-adress{
-  background-color: #2F303A;
-  
-  
-height: 251px;
 
-}
-.adress-information {
- 
-  display: flex;
 
-}
 .container-adress .highlight {
   color: #2196f3;
   font-family: var(--series-font-family);
   font-weight: 700;
   font-size: 26px;
-  padding-left: 230px;
   
 }
 .container-adress h4 {
@@ -550,12 +548,11 @@ height: 251px;
   font-weight: 700;
   font-size: 26px;
   line-height: 30.52px;
-  padding-top: 30px;
+ padding-left: 215px;
+ padding-top: 20px;
 }
 .useful-information {
- 
   display: flex;
-  
 }
 
 .useful-information li{
@@ -573,20 +570,21 @@ height: 251px;
 .useful-information a:hover {
   color: #2196f3;
 }
+.container-social{
+  display: flex;
+  flex-direction: column;
+  padding-left: 520px;
+}
 .title-find{
   font-family: var(--heading-font-family);
   font-size: 14px;
   font-weight: 700;
   letter-spacing: 0.03em;
   color: #eeeeee;
-  padding-left: 430px;
+  padding-left: 45px;
+  text-transform: uppercase;
 }
-.icon-social-find{
-  display: flex;
-  justify-content: center;
-  gap: 10px;
-  padding: 25px;
-}
+
 .instagram1,
 .twitter1,
 .facebook1,
@@ -595,26 +593,21 @@ height: 251px;
 height: 20px;
 fill: #FFFFFF;
 }
+.icon-social-find{
+  display: flex;
+  gap: 10px;
+}
 .icon-social-item{
   border: 1px solid  #FFFFFF1A;
   border-radius: 50%;
-  padding: 15px;
+  padding: 10px;
   background-color: #FFFFFF1A;
 }
 .icon-social-item:hover{
   background-color: #2196F3;
 }
-.container-adress{
-  display: flex;
-  width: 100%;
-  background-color: #2f303a;
-  justify-content: space-between;
-  flex-direction: column;
-}
-.container-find{
-  display: flex;
-  flex-direction: column;
-}
+
+
 .portofolio-container {
   display: flex;
   flex-wrap: wrap;
@@ -657,6 +650,14 @@ fill: #FFFFFF;
   gap: 30px;
   justify-content: center;
   padding-bottom: 94px;
+}
+.item{
+  border: 1px solid #EEEEEE;
+}
+.item:hover{
+  box-shadow: 1px 4px 6px 0px #00000029;
+
+  
 }
 .product {
   width: 322px;
