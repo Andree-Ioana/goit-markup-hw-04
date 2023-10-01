@@ -47,14 +47,17 @@
 .phone:hover {
   stroke: #2196f3;
 }
-.current {
+.list-class li a{
+  color: #212121;
+}
+.list-class li a .current {
   color: #2196f3;
 }
-a:link,
-a:hover {
+.list-class li a:link,
+.list-class li a:hover {
   color: #2196f3;
 }
-a:focus{
+.list-class li a:focus{
   color: #2196f3;
 }
 .nav-link {
@@ -67,8 +70,8 @@ a:focus{
   gap: 50px;
 }
 
-.list-class li a {
-  color: #212121;
+.contact-container a {
+  color: #757575;
 }
 
 span.accent {
@@ -77,6 +80,7 @@ span.accent {
   font-weight: 400;
   font-size: 26px;
 }
+
 .nav-title {
   display: flex;
   font-family: var(--series-font-family);
@@ -87,27 +91,23 @@ span.accent {
 }
 
 .global-header .main-navigation a:link {
-  color: var(--link-color);
   text-decoration: none;
   font-weight: 500;
   font-size: 14px;
   line-height: 16.41px;
 }
-.global-header .main-navigation a:hover,
-.global-header .main-navigation a:active {
+ .contact-container a:hover,
+ .contact-container a:active {
   color: #2196f3;
 }
 
 .global-header a {
-  color: #757575;
   text-decoration: none;
   font-weight: 500;
   font-size: 14px;
 }
 
-.global-header a:hover {
-  color: #2196f3;
-}
+
 .page-section-content {
   display: flex;
   background-color: #2f303a;
@@ -278,6 +278,7 @@ h2 {
   top: 1635px;
   left: 215px;
   gap: 30px;
+  padding-top: 50px;
 }
 .title-team {
   color: #212121;
@@ -421,13 +422,16 @@ h2 {
 .icon-social-list:hover {
   background-color: #2196f3;
   border-radius: 50%;
-  padding: 9px;
+  padding: 10px;
+}
+.icon-social-list{
+  padding: 10px;
 }
 .icon-social {
   display: flex;
   justify-content: center;
   padding: 25px;
-  gap: 30px;
+  gap: 10px;
 }
 
 .union {
