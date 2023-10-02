@@ -70,6 +70,25 @@
   padding-left: 93px;
   gap: 50px;
 }
+.line-studio{
+  border: 3px solid #ffffff;
+  cursor: pointer;
+  position: absolute;
+  width: 42px;
+  top: 86px;
+}
+.line-portofolio{
+  border: 3px solid #ffffff;
+  cursor: pointer;
+  position: absolute;
+  width: 60px;
+  top: 86px;
+}
+hr:hover{
+  background: #2196F3;
+  border: 3px solid #2196f3;
+  border-radius: 2px;
+}
 
 .contact-container a {
   color: #757575;
