@@ -25,8 +25,9 @@
   cursor: pointer;
   fill: #757575;
 }
-.mail:hover {
+.icon-mail:hover {
   stroke: #2196f3;
+  color: #2196F3;
 }
 .contact-container .icon-mail {
   display: flex;
@@ -44,15 +45,19 @@
   align-items: center;
   gap: 10px;
 }
-.phone:hover {
+.icon-phone:hover {
   stroke: #2196f3;
+  color: #2196F3;
 }
 a{
   color: #212121;
 }
+
+
  .current {
   color: #2196f3;
 }
+
 .nav-link:link,
 .nav-link:hover {
   color: #2196f3;
@@ -77,6 +82,7 @@ a{
   width: 42px;
   top: 86px;
 }
+
 .line-portofolio{
   border: 3px solid #ffffff;
   cursor: pointer;
@@ -281,7 +287,15 @@ h2 {
   align-items: center;
   gap: 30px;
 }
-
+.desktop{
+  top: 1520px;
+  left: 260px;
+  border: 1px solid #212121;
+  background-color: #188ce8;
+}
+.desktop p{
+  color: #ffffff;
+}
 .our-team {
   background-color: #f5f4fa;
   display: flex;
